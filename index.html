@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Edukasi Bahaya Narkoba & Alkohol</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>STOP NARKOBA & MINUMAN KERAS</h1>
+  <p>Sayangi Dirimu, Sayangi Masa Depanmu</p>
+</header>
+
+<section>
+  <h2>Apa Itu Narkoba?</h2>
+  <p>
+    Narkoba adalah zat yang dapat merusak kesehatan dan menyebabkan kecanduan.
+  </p>
+  <img src="https://images.unsplash.com/photo-1588776814546-ec7e47b0a7b6" alt="narkoba">
+
+  <button onclick="toggleContent('narkoba')">Lihat Bahaya</button>
+  <p id="narkoba" class="hidden">
+    - Kerusakan otak<br>
+    - Gangguan mental<br>
+    - Kematian<br>
+    - Kehancuran masa depan
+  </p>
+</section>
+
+<section>
+  <h2>Bahaya Minuman Keras</h2>
+  <p>
+    Alkohol dapat merusak organ tubuh dan menyebabkan ketergantungan.
+  </p>
+  <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b" alt="alkohol">
+
+  <button onclick="toggleContent('alkohol')">Lihat Bahaya</button>
+  <p id="alkohol" class="hidden">
+    - Kerusakan hati<br>
+    - Gangguan jantung<br>
+    - Kecelakaan<br>
+    - Perilaku berbahaya
+  </p>
+</section>
+
+<section>
+  <h2>Quiz Edukasi</h2>
+  <p>Apa dampak utama narkoba?</p>
+  <button onclick="jawaban('salah')">Menyehatkan tubuh</button>
+  <button onclick="jawaban('benar')">Merusak kesehatan</button>
+  <button onclick="jawaban('salah')">Menambah energi alami</button>
+
+  <p id="hasil"></p>
+</section>
+
+<footer>
+  <p>© 2026 Edukasi Anti Narkoba</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
